@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 type Brand = { name: string; logo?: string; bg?: string };
 const clients: Brand[] = [
   { name: "Etisalat" },
-  { name: "Avenor Creative", logo: "/partners/avenor.jpg", bg: "#131313" },
+  { name: "Avenor Creative", logo: "https://i.postimg.cc/DyhL3mTZ/Whats-App-Image-2026-10-07-at-4-08-58-PM.jpg", bg: "#131313" },
   { name: "Alfa Plus" },
   { name: "Al Eman Tech" },
-  { name: "Abousamra Travel", logo: "/partners/abousamra.jpg", bg: "#ffffff" }
+  { name: "Abousamra Travel", logo: "https://i.postimg.cc/28YhN3DS/Whats-App-Image-2026-10-07-at-4-09-40-PM.jpg", bg: "#ffffff" }
 ];
 const partners: Brand[] = [{ name: "Mostmer" }];
 
@@ -34,7 +34,7 @@ export default function Home() {
 
   return <main>
     <nav className="navbar"><div className="container nav-inner">
-      <div className="brand"><img src="/logo.png" alt="شعار جاهز GAHEZ IT" className="brand-logo" /><div className="logo"><span>جاهز</span><small>GAHEZ IT</small></div></div>
+      <div className="brand"><img src="https://i.postimg.cc/xj3qHRWW/logo.png" alt="شعار جاهز GAHEZ IT" className="brand-logo" /><div className="logo"><span>جاهز</span><small>GAHEZ IT</small></div></div>
       <div className="nav-links"><a href="#services">الخدمات</a><a href="#clients">عملاؤنا</a><a href="#process">طريقة العمل</a><a href="#plans">الباقات</a><a href="#contact">تواصل معنا</a></div>
       <a href="https://wa.me/201095398671" className="nav-button" target="_blank">واتساب</a>
     </div></nav>
@@ -73,7 +73,7 @@ export default function Home() {
 
     <section id="contact" className="cta-section"><div className="container"><div className="cta-box"><div><span>جاهز نساعدك؟</span><h2>خلي الـ IT علينا وركز في شغلك.</h2><p>المنصورة والدقهلية والمناطق المحيطة.</p></div><a href="https://wa.me/201095398671" target="_blank" className="button whatsapp">💬 ابدأ محادثة</a></div></div></section>
 
-    <footer><div className="container footer-inner"><div className="brand"><img src="/logo.png" alt="شعار جاهز GAHEZ IT" className="brand-logo" /><div className="logo"><span>جاهز</span><small>GAHEZ IT</small></div></div><div><p>المنصورة والدقهلية</p><a href="tel:01095398671" dir="ltr">01095398671</a></div><p className="copyright">© {new Date().getFullYear()} Gahez IT. All rights reserved.</p></div></footer>
+    <footer><div className="container footer-inner"><div className="brand"><img src="https://i.postimg.cc/xj3qHRWW/logo.png" alt="شعار جاهز GAHEZ IT" className="brand-logo" /><div className="logo"><span>جاهز</span><small>GAHEZ IT</small></div></div><div><p>المنصورة والدقهلية</p><a href="tel:01095398671" dir="ltr">01095398671</a></div><p className="copyright">© {new Date().getFullYear()} Gahez IT. All rights reserved.</p></div></footer>
     <a href="https://wa.me/201095398671" target="_blank" className="floating-whatsapp">💬 واتساب</a>
   </main>;
 }
